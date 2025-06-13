@@ -1,0 +1,14 @@
+# main
+episodes: 3000
+batch_size: 64 # trying 64 breakout 32 box
+lr: .001 #+0
+gamma: .99 # 0.9
+
+# epsilon-greedy
+epsilon_min: .01
+epsilon_decay: .995
+
+# training
+update_target: 1000 # both
+warmup: 100
+update_freq: 4
